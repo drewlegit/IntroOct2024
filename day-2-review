@@ -1,0 +1,26 @@
+# Day 2 Review
+
+## Assemblies and Visual Studio
+What is your understanding of what is meant by the term "Assembly" in .NET?
+    It is a compiled code that consists of CIL (Common Intermediate Language).
+What is the relationship between an assembly and visual studio Project?
+    The contents of a VS project defines how code is to be compiled, which builds an assembly.
+What is a solution in Visual Studio?
+    A sort of container that groups multiple related projects and their files.
+What are the two types of Assemblies discussed in class?
+    Executable (.exe) and Libraries (.dll).
+What is the thing that makes an assembly "Runnable" - what is the *entry* point of an Assembly?
+    The entry point of an assembly is the main method, such as an .exe file. The main method must be present in one of the classes in order to run.
+
+## What is the "Common Language Runtime (CLR)" 
+    CLR is the primary runtime engine of .NET and ensures cross-language interoperability.
+
+## What is "Dotnet Core"? What's that all about?
+    A forerunner of what we now know as .NET, Dotnet Core was developed by Microsoft. It was the first to work on platforms beyond just Windows.
+
+## What is the Common Type System (CTS)?
+    The type system that all .NET languages share (C#, F#, etc.).
+
+## What are the "First Class Citizens" of .NET?
+    
+
